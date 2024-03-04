@@ -44,4 +44,5 @@ def arithmetic_arranger(problems, show_answers=False):
         final_arranged_problems += '\n' + arranged_problems["line4"]
     return final_arranged_problems
 
-print(arithmetic_arranger(["3801 - 2", "123 + 49"])) 
+if __name__ == '__main__':
+    print(arithmetic_arranger(["3801 - 2", "123 + 49"], True)
